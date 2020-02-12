@@ -50,6 +50,7 @@ var btnHitArea = document.querySelector('.btnArea');
 
 btnHitArea.addEventListener('click', function(e){
     if (e.target.nodeName === 'INPUT') {
+        console.log(e.target.nodeName)
         getSelectZone(null, e.target.value);
     } else {
         return
