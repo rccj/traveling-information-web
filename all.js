@@ -44,7 +44,20 @@ for (var i = 0; i < selectZone.length; i++) {
 
 //click熱門地區
 
-// var btn = documentquery
+// var btns = document.querySelectorAll('.btn');
+var btnHitArea = document.querySelector('.btnArea');
+
+
+btnHitArea.addEventListener('click', function(e){
+    if (e.target.nodeName === 'INPUT') {
+        getSelectZone(null, e.target.value);
+    } else {
+        return
+    }
+}, false);
+// btns.forEach(function(btn){
+//     btn.addEventListener('click',getSelectZone,false)
+// })
 
 
 //指定dom
