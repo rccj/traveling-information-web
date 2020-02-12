@@ -44,7 +44,7 @@ for (var i = 0; i < selectZone.length; i++) {
 
 //click熱門地區
 
-var btn = documentquery
+// var btn = documentquery
 
 
 //指定dom
