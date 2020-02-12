@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Microsoft JhengHei", "Helvetica Nueue", Arial, Sans Serif;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 380px;
+    background-image: url(https://github.com/rccj/images/blob/master/sources/Kaohsiung/Hero.png?raw=true);
+}
+
+.headCon {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headCon h1 {
+    font-size: 40px;
+    padding: 80px;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+#selArea {
+    height: 48px;
+    width: 452px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.popArea {
+    width: 800px;
+    height: 112px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: relative;
+    top: 80px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+}
+
+.popArea h2 {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.popArea ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.btn {
+    width: 130px;
+    height: 42px;
+    margin: 10px;
+    border-radius: 5px;
+    /* ??? */
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn1 {
+    background-color: #8A82CC;
+}
+
+.btn2 {
+    background-color: #FFA782;
+}
+
+.btn3 {
+    background-color: #F5D105;
+}
+
+.btn4 {
+    background-color: #559AC8;
+}
+
+/* 中間部分內容虛線 */
+
+.conTop {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dashLine {
+    border-bottom: dashed #559AC8 2px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.circle {
+    position: relative;
+    top: 12px;
+    margin: 0 auto;
+    height: 24px;
+    width: 24px;
+    background: #F7F7F7;
+    border: 2px solid #559AC8;
+    border-radius: 50%;
+}
+
+.arrow {
+    position: relative;
+    top: 10px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #559AC8;
+}
+
+.titleTop {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #8A82CC;
+}
+
+/* 旅遊資訊 內容*/
+
+.content {
+    padding: 120px 40px 50px 40px;
+}
+
+.card {
+    height: 273px;
+    width: 464px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 15px 30px 0;
+}
+
+.card:nth-child(even) {
+    margin-right: 0px;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardTop {
+    width: 464px;
+    height: 155px;
+    background-position: center;
+    background-size: cover;
+    padding: 110px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.cardTop h1 {
+    font-size: 24px;
+    color: #fff;
+    display: inline-block;
+}
+
+.cardTop p {
+    font-size: 19px;
+    color: #fff;
+    display: block;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+.cardDown {
+    height: 118px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardDown li {
+    font-size: 16px;
+}
+
+.cardDown > li::before{
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+    margin-right: 7px;
+    vertical-align: sub;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.iconClock::before{
+   background-image: url(https://github.com/rccj/images/blob/master/sources/Kaohsiung/icons_clock.png?raw=true);
+}
+
+.iconAddress::before{
+    background-image: url(https://github.com/rccj/images/blob/master/sources/Kaohsiung/icons_pin.png?raw=true);
+}
+
+.iconPhone::before{
+    background-image: url(https://github.com/rccj/images/blob/master/sources/Kaohsiung/icons_phone.png?raw=true);
+}
+
+.iconFree::before{
+    background-image: url(https://github.com/rccj/images/blob/master/sources/Kaohsiung/icons_tag.png?raw=true);
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #559AC8;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer h1 {
+    color: #FFD366;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #fff;
+}
