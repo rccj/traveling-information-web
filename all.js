@@ -21,6 +21,8 @@ const data = JSON.parse(xhr.response).result.records;
 // });
 
 // console.log(noRepeatZone);
+console.log('HiHi! Dylan was here!!')
+
 var noRepeatZone = []
 for (let i = 0; i < data.length; i++) {
     noRepeatZone.push(data[i].Zone)
